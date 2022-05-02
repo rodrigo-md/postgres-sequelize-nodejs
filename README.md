@@ -1,7 +1,8 @@
 # 🐘 postgres-sequelize-nodejs
 ## Requirements
 
--  Yarn
+- Yarn
+- Node v14
 
 ## How to
 
@@ -9,15 +10,14 @@
    -  Type `yarn` to install its dependencies.
    -  Make your changes
 -  Starting for development:
+   - Run `docker-compose up -d`
    -  Type `yarn dev` to start the server.
-   -  Access the `http://localhost:3333` on the postman or insomnia.
-   
-## Author
+   -  Access the `http://localhost:3000` on the postman or insomnia.
 
-<table>
-    <tr>
-        <td style="text-align:center">
-            <a href="https://github.com/tabaesso" target="blank" rel="noopener"><img src="https://avatars1.githubusercontent.com/u/43206830?s=115&v=4"><br><sub>@tabaesso</sub></a>
-        </td>
-    </tr>
-</table>
+### Run tests
+
+For now we have only integration tests
+
+1. Make sure you have running the postgres container first
+2. Run the API in localhost with `yarn dev`
+3. Run the tests with `npm test`

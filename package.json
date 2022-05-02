@@ -6,10 +6,13 @@
   "author": "Tábata Baesso <tatabaesso@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test": "jest --forceExit"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "express": "^4.17.1",
+    "jest": "^28.0.3",
     "pg": "^8.0.3",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.21.7"

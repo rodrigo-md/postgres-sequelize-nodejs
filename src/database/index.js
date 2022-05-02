@@ -15,4 +15,4 @@ User.associate(connection.models);
 Address.associate(connection.models);
 Tech.associate(connection.models);
 
-module.exports = connection;
+module.exports =  connection;
